@@ -30,7 +30,7 @@ class CardItem extends StatelessWidget {
             Flexible(
               flex: 1,
               child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(4.0),
                 child: Text(
                   card.name ?? "",
                   style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
